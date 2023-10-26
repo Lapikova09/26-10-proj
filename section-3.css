@@ -1,0 +1,51 @@
+.gallery{
+    font-family: Clash Display;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 48px;
+}
+.gallery p{
+    flex-wrap: wrap;
+    gap: 10px;
+    white-space: nowrap;
+    animation: text 10s infinite linear;
+    padding-left: 100%;
+}
+.hover-wrapper { 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 50px; 
+    padding-bottom: 100px; 
+  } 
+   
+  .img-wrapper { 
+    height: 600px; 
+    width: 600px; 
+    position: relative; 
+    margin-left: 16px;
+  } 
+   
+  .img-wrapper img:last-child { 
+    position: absolute; 
+    top: 45%; 
+    left: 40%; 
+    visibility: hidden; 
+  } 
+   
+  .img-wrapper:hover { 
+    border: 8px solid #D2F65A; 
+  } 
+   
+  .img-wrapper:hover .cursor{ 
+    visibility: visible; 
+  } 
+   
+  .img-wrapper img:first-child { 
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+  }
